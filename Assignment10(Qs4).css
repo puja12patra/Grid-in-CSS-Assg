@@ -1,0 +1,43 @@
+.container{
+    height: 200px;
+    width:800px;
+  border: 5px solid black;
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 15px;
+   padding: 30px;
+   
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 180%;
+  }
+  
+  .box:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+  }
+ 
+  .box3{
+   order:-8;
+  }
+  .box4{
+    order:-7;
+  }
+  .box5{
+    order:-6;
+  }
+  .box6{
+    order:-5;
+  }
+  .box7{
+    order:-4;
+  }
+  .box8{
+    order:-3;
+  }

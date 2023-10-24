@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-items and justify-self</title>
+    <link rel="stylesheet" href="Assignment10(Qs5).css">
+</head>
+<!-- Explain the difference between justify-items and justify-self using code examples. -->
+<body>
+    <p ><mark >Justify-items: </mark> is used on a grid container and is used to determine how grid items are spread out along a row by
+        setting the default justify-self property for all child boxes.</p>
+        <p>Below is an example </p>
+        <div id="myDIV">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+        </div>
+    <p ><mark >justify-self: </mark> is used to set how an individual grid item positions itself along the row/inline axis. Grid items
+        inherit the value of the justify-items property on the container by default, so if the justify-self value is set, it
+        would override the inherited justify-items value.</p>
+        <p>Below is an example </p>
+        <div id="myDIV1">
+            <div class="item_1">1</div>
+            <div class="item_2">2</div>
+            <div class="item_3">3</div>
+            <div class="item_4">4</div>
+            <div class="item_5">5</div>
+            <div class="item_6">6</div>
+        </div>
+</body>
+</html>

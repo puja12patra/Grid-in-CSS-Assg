@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-auto-row and grid-auto-column</title>
+    <link rel="stylesheet" href="Assignment10(Qs3).css">
+</head>
+<!-- Explain the use of grid-auto-row and grid-auto-column using code examples. -->
+<body>
+    <h1>CSS grid-auto-rows:</h1>
+    <p >The grid-auto-rows property sets a size for the rows in a grid
+        container.
+        This property affects only rows with the size not set. In other words, this property sets the size of rows that
+        have not been explicitly sized in the grid-template-rows property.
+        below is an example.</p>
+
+    <h3>The grid-auto-rows property</h3>
+
+    <div id="myDIV">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+    </div>
+    <p>Above used auto to define one row as in grid-template-rows and used grid-auto-rows to define the other row.</p>
+    <h1>CSS grid-auto-columns:</h1>
+    <p > This CSS property specifying the size of the grid columns that were
+        created without having an explicit size.In other words, this property sets the size of any other columns that
+        have not been explicitly sized in the grid-template-columns property. Below is an example.</p>
+        <h3>The grid-auto-columns property</h3>
+
+    <div id="myDIV1">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+    </div>
+    <p>Above used two auto to define two columns as in grid-template-columns and used grid-auto-columns to set 50px to define the last column.</p>
+</body>
+</html>
